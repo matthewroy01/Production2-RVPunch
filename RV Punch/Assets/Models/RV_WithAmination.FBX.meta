@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: cff24f5a13e6c5a4b81194513f370202
+timeCreated: 1517536118
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bisep
+    100002: Bisep001
+    100004: Bisep003
+    100006: Box001
+    100008: Box002
+    100010: Box003
+    100012: Box004
+    100014: Box005
+    100016: Cylinder009
+    100018: Cylinder013
+    100020: Cylinder014
+    100022: Cylinder015
+    100024: Cylinder016
+    100026: Cylinder017
+    100028: Cylinder018
+    100030: Cylinder019
+    100032: Cylinder020
+    100034: Cylinder021
+    100036: Fist
+    100038: Fist001
+    100040: Fist003
+    100042: Forearm
+    100044: Forearm001
+    100046: Forearm003
+    100048: Object001
+    100050: Object002
+    100052: //RootNode
+    100054: Shoulder
+    100056: Shoulder001
+    100058: Shoulder003
+    400000: Bisep
+    400002: Bisep001
+    400004: Bisep003
+    400006: Box001
+    400008: Box002
+    400010: Box003
+    400012: Box004
+    400014: Box005
+    400016: Cylinder009
+    400018: Cylinder013
+    400020: Cylinder014
+    400022: Cylinder015
+    400024: Cylinder016
+    400026: Cylinder017
+    400028: Cylinder018
+    400030: Cylinder019
+    400032: Cylinder020
+    400034: Cylinder021
+    400036: Fist
+    400038: Fist001
+    400040: Fist003
+    400042: Forearm
+    400044: Forearm001
+    400046: Forearm003
+    400048: Object001
+    400050: Object002
+    400052: //RootNode
+    400054: Shoulder
+    400056: Shoulder001
+    400058: Shoulder003
+    2300000: Bisep
+    2300002: Bisep001
+    2300004: Bisep003
+    2300006: Box001
+    2300008: Box002
+    2300010: Box003
+    2300012: Box004
+    2300014: Box005
+    2300016: Cylinder009
+    2300018: Cylinder013
+    2300020: Cylinder014
+    2300022: Cylinder015
+    2300024: Cylinder016
+    2300026: Cylinder017
+    2300028: Cylinder018
+    2300030: Cylinder019
+    2300032: Cylinder020
+    2300034: Cylinder021
+    2300036: Fist
+    2300038: Fist001
+    2300040: Fist003
+    2300042: Forearm
+    2300044: Forearm001
+    2300046: Forearm003
+    2300048: Object001
+    2300050: Object002
+    2300052: Shoulder
+    2300054: Shoulder001
+    2300056: Shoulder003
+    3300000: Bisep
+    3300002: Bisep001
+    3300004: Bisep003
+    3300006: Box001
+    3300008: Box002
+    3300010: Box003
+    3300012: Box004
+    3300014: Box005
+    3300016: Cylinder009
+    3300018: Cylinder013
+    3300020: Cylinder014
+    3300022: Cylinder015
+    3300024: Cylinder016
+    3300026: Cylinder017
+    3300028: Cylinder018
+    3300030: Cylinder019
+    3300032: Cylinder020
+    3300034: Cylinder021
+    3300036: Fist
+    3300038: Fist001
+    3300040: Fist003
+    3300042: Forearm
+    3300044: Forearm001
+    3300046: Forearm003
+    3300048: Object001
+    3300050: Object002
+    3300052: Shoulder
+    3300054: Shoulder001
+    3300056: Shoulder003
+    4300000: Box001
+    4300002: Cylinder009
+    4300004: Box002
+    4300006: Box003
+    4300008: Cylinder013
+    4300010: Cylinder014
+    4300012: Cylinder015
+    4300014: Cylinder016
+    4300016: Cylinder017
+    4300018: Cylinder018
+    4300020: Cylinder019
+    4300022: Cylinder020
+    4300024: Cylinder021
+    4300026: Object001
+    4300028: Object002
+    4300030: Shoulder
+    4300032: Bisep
+    4300034: Forearm
+    4300036: Fist
+    4300038: Shoulder001
+    4300040: Bisep001
+    4300042: Forearm001
+    4300044: Fist001
+    4300046: Box004
+    4300048: Box005
+    4300050: Shoulder003
+    4300052: Bisep003
+    4300054: Forearm003
+    4300056: Fist003
+    7400000: PunchLeft
+    7400002: PunchRight
+    7400004: PunchJump
+    7400006: Hit
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PunchLeft
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 136
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PunchRight
+      takeName: Take 001
+      firstFrame: 137
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PunchJump
+      takeName: Take 001
+      firstFrame: 184
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 216
+      lastFrame: 231
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

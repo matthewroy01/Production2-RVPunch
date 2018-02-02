@@ -120,18 +120,18 @@ public class PlayerMovement : Player
 
 	void CheckGround()
 	{
-		// check if we're grounded
-		if (Physics.Linecast(transform.position, new Vector3(transform.position.x, transform.position.y - 1.1f, transform.position.z), ground))
+        // check if we're grounded
+        if (Physics.Linecast(transform.position, new Vector3(transform.position.x, transform.position.y - 1.1f, transform.position.z), ground))
 		{
 			grounded = true;
-		}
-		else
+        }
+        else
 		{
 			grounded = false;
 		}
 	}
 
-	void ApplyArtificialGravity()
+    void ApplyArtificialGravity()
 	{
 		// if we're not grounded, apply artificial gravity to make us fall faster
 		// this allows us to fall faster without increasing our Rigidbody's gravity scale

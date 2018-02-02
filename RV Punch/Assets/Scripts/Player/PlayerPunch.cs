@@ -14,6 +14,8 @@ public class PlayerPunch : Player
 
 	private string plKey = "PunchLeft", prKey = "PunchRight", jKey = "Jump";
 
+    public Animator anim;
+
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
@@ -35,17 +37,42 @@ public class PlayerPunch : Player
 	{
 		if (Input.GetButtonDown(prKey) && !punching)
 		{
-			Invoke("DoPunchRight", startUp);
+            if (anim.GetInteger("animNum") == 1)
+            {
+                anim.SetTrigger("repeat");
+            }
+            else
+            {
+                anim.SetInteger("animNum", 1);
+            }
+
+            Invoke("DoPunchRight", startUp);
 		}
 
 		if (Input.GetButtonDown(plKey) && !punching)
 		{
-			Invoke("DoPunchLeft", startUp);
+            if (anim.GetInteger("animNum") == 2)
+            {
+                anim.SetTrigger("repeat");
+            }
+            else
+            {
+                anim.SetInteger("animNum", 2);
+            }
+            Invoke("DoPunchLeft", startUp);
 		}
 
 		if (Input.GetButtonDown (jKey) && !punching)
 		{
-			Invoke ("DoPunchJump", startUp);
+            if (anim.GetInteger("animNum") == 3)
+            {
+                anim.SetTrigger("repeat");
+            }
+            else
+            {
+                anim.SetInteger("animNum", 3);
+            }
+            Invoke ("DoPunchJump", startUp);
 		}
 	}
 
@@ -55,7 +82,7 @@ public class PlayerPunch : Player
 		punchHitbox.transform.position = hitboxLocations[0].position;
 		punchHitbox.SetActive(true);
 		punching = true;
-		Invoke("StopPunch", duration);
+        Invoke("StopPunch", duration);
 	}
 
 	private void DoPunchLeft()
@@ -63,7 +90,7 @@ public class PlayerPunch : Player
 		punchHitbox.transform.position = hitboxLocations[1].position;
 		punchHitbox.SetActive(true);
 		punching = true;
-		Invoke("StopPunch", duration);
+        Invoke("StopPunch", duration);
 	}
 
 	private void DoPunchJump()
@@ -77,7 +104,7 @@ public class PlayerPunch : Player
 		punchHitbox.transform.position = hitboxLocations[2].position;
 		punchHitbox.SetActive(true);
 		punching = true;
-		Invoke("StopPunch", duration);
+        Invoke("StopPunch", duration);
 	}
 
 	// stopping punches
@@ -85,5 +112,5 @@ public class PlayerPunch : Player
 	{
 		punching = false;
 		punchHitbox.SetActive(false);
-	}
+    }
 }
